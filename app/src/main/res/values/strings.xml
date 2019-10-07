@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ProyectoJCG</string>
+    <string name="presentacion">PRESENTACION DE LAS CARRERAS DEL TECNOLOGICO</string>
+    <string name="menu">MENU</string>
+    <string name="tics">ING. TICS</string>
+    <string name="admin">ING. ADMINISTRACION</string>
+    <string name="sistemas">ING. SISTEMAS</string>
+    <string name="ambiental">ING. AMBIENTAL</string>
+    <string name="industrial">ING. INDUSTRIAL</string>
+    <string name="energias">ING. ENERGIAS RENOVABLES</string>
+    <string name="gastronomia">LIC. GASTRONOMIA</string>
+    <string name="contaduria">LIC. CONTADURIA</string>
+    <string name="menu1">REGRESAR</string>
+    <string name="menu2">REGRESAR</string>
+    <string name="menu3">REGRESAR</string>
+    <string name="menu4">REGRESAR</string>
+    <string name="menu5">REGRESAR</string>
+    <string name="menu6">REGRESAR</string>
+    <string name="menu7">REGRESAR</string>
+    <string name="menu8">REGRESAR</string>
+</resources>

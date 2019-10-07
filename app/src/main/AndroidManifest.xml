@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jcg.itics.tesoem.edu.proyectojcg">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".gastronomiaActivity"></activity>
+        <activity android:name=".contaduriaActivity" />
+        <activity android:name=".energiasActivity" />
+        <activity android:name=".industrialActivity" />
+        <activity android:name=".ambientalActivity" />
+        <activity android:name=".sistemasActivity" />
+        <activity android:name=".administracionActivity" />
+        <activity android:name=".ticsActivity" />
+        <activity android:name=".FrmPrincipalActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

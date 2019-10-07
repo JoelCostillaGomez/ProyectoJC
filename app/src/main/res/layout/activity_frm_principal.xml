@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FrmPrincipalActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/menu"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.081" />
+
+    <ScrollView
+        android:layout_width="405dp"
+        android:layout_height="380dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.104">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/siguiente1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="tics"
+                android:text="@string/tics"
+                android:textSize="36sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView2"
+                app:layout_constraintVertical_bias="0.168" />
+
+            <Button
+                android:id="@+id/siguiente2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="administracion"
+                android:text="@string/admin"
+                android:textSize="36sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView2"
+                app:layout_constraintVertical_bias="0.168" />
+
+            <Button
+                android:id="@+id/siguiente3"
+                android:layout_width="wrap_content"
+                android:layout_height="84dp"
+                android:onClick="sistemas"
+                android:text="@string/sistemas"
+                android:textSize="36sp"
+                tools:layout_editor_absoluteX="70dp"
+                tools:layout_editor_absoluteY="596dp" />
+
+            <Button
+                android:id="@+id/siguiente4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="ambiental"
+                android:text="@string/ambiental"
+                android:textSize="36sp"
+                tools:layout_editor_absoluteX="207dp"
+                tools:layout_editor_absoluteY="608dp" />
+
+            <Button
+                android:id="@+id/siguiente5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="industrial"
+                android:text="@string/industrial"
+                android:textSize="36sp"
+                tools:layout_editor_absoluteX="160dp"
+                tools:layout_editor_absoluteY="626dp" />
+
+            <Button
+                android:id="@+id/siguiente6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="energias"
+                android:text="@string/energias"
+                android:textSize="36sp"
+                tools:layout_editor_absoluteX="81dp"
+                tools:layout_editor_absoluteY="580dp" />
+
+            <Button
+                android:id="@+id/siguiente7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="gastronomia"
+                android:text="@string/gastronomia"
+                android:textSize="36sp"
+                tools:layout_editor_absoluteX="177dp"
+                tools:layout_editor_absoluteY="626dp" />
+
+            <Button
+                android:id="@+id/siguiente8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="contaduria"
+                android:text="@string/contaduria"
+                android:textSize="36sp"
+                tools:layout_editor_absoluteX="154dp"
+                tools:layout_editor_absoluteY="667dp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
